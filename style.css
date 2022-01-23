@@ -44,3 +44,82 @@
     opacity: 1;
     right: 0;
   }
+.pack{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.btn-pack{
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  text-decoration: none;
+
+}
+.support-head{
+  text-align: center;
+}
+.area{
+  display: flex;
+  padding-right: 10%;
+  padding-left: 10%;
+  }
+.support-pro{
+      display: grid;
+      width: 60%;
+      margin-left: 2%;
+      margin-right: 2%;
+      padding-left: 3%;
+      padding-right: 3%;
+      border-radius:10px;
+      text-align: justify;
+}
+img{
+  width: 60%;
+  
+}
+.img-pos{
+  text-align: center;
+}
+.contact-button{
+  text-decoration: none;
+  text-align: center;
+  background-image: linear-gradient(to right, rgb(196, 185, 185) , rgb(59, 164, 224));
+  color:rgb(39, 23, 23);
+  font-weight: 700;
+  padding: 10px 25px;
+  border-radius: 5px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  width: 40%;
+  align-items: center;
+  
+}
+.contact-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.contact-button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.contact-button:hover span {
+  padding-right: 25px;
+}
+.contact-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
