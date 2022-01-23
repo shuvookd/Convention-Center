@@ -123,3 +123,18 @@ img{
   opacity: 1;
   right: 0;
 }
+/* Footer Part  */
+footer{
+  background-color: rgb(141, 186, 204);
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+}
+.foot{
+  color: rgb(0, 0, 0);
+}
+footer img{
+  height:5%;
+  weight: 5%;
+}
