@@ -131,7 +131,7 @@
                 <br><i class="far fa-check-circle"></i>Event support
                 <br><i class="far fa-check-circle"></i>Decoration Design
                 <br><i class="far fa-check-circle"></i>Per day bill</p>
-                <button class="btn btn-pack button1">Choose Plan</button>
+                <button onclick="myFunction()" class="btn btn-pack button1">Choose Plan</button>
             </div>
           </div>
         </div>
@@ -146,7 +146,7 @@
                 <br><i class="far fa-check-circle"></i>Management Support
                 <br><i class="far fa-check-circle"></i>Decoration Design
                 <br><i class="far fa-check-circle"></i>Billed as shift</p>
-                <button class="btn btn-pack button1">Choose Plan</button>
+                <button onclick="myFunction()" class="btn btn-pack button1">Choose Plan</button>
             </div>
           </div>
         </div>
@@ -161,7 +161,7 @@
                 <br><i class="far fa-check-circle"></i>Buffet food
                 <br><i class="far fa-check-circle"></i>Premium Decoration
                 <br><i class="far fa-check-circle"></i>Pay as Pain</p>
-                <button class="btn btn-pack button1">Choose Plan</button>
+                <button onclick="myFunction()" class="btn btn-pack button1">Choose Plan</button>
             </div>
           </div>
         </div>
@@ -176,12 +176,15 @@
               <br><i class="far fa-check-circle"></i>Buffet food
               <br><i class="far fa-check-circle"></i>Premium Decoration
               <br><i class="far fa-check-circle"></i>Pay as Pain</p>
-              <button class="btn btn-pack button1">Choose Plan</button>
+              <button onclick="myFunction()" class="btn btn-pack button1" >Choose Plan</button>
 
             </div>
           </div>
         </div>
       </div>
+      
+
+<div id="snackbar">Thanks for Choosing your plan.</div>
     </Section>
     <!-- Supporter section -->
     <section>
@@ -270,6 +273,16 @@
     </div>
     
 </footer>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("snackbar");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+</script>
 
 
     <!-- Bootstrap Script      -->
