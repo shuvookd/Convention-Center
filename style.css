@@ -1,3 +1,7 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Dancing+Script:wght@700&family=Poppins:wght@400;500&display=swap');
+/* Commons Files or utilities */
+/* BackGround Image  */
 .background{
     background-image: url(images/bg.jpg);
     background-repeat: no-repeat;
@@ -12,7 +16,7 @@
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(to right, rgb(182, 176, 176) , rgb(35, 35, 245));
+    background-image: linear-gradient(to right, rgb(182, 176, 176) , rgb(106, 106, 209));
     color:rgb(63, 54, 54);
     font-weight: 700;
     padding: 10px 25px;
@@ -125,7 +129,9 @@ img{
   right: 0;
 }
 /* package  */
-
+.toast{
+margin: auto;
+}
 .package {
   background-color: #248fce;
   border: none;
@@ -164,7 +170,7 @@ footer{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 500;
   height: 150px;
-  weight:100px;
+  
 }
 .foot{
   color: rgb(0, 0, 0);
