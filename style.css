@@ -1,14 +1,6 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Dancing+Script:wght@700&family=Poppins:wght@400;500&display=swap');
 /* Commons Files or utilities */
-/* BackGround Image  */
-.background{
-    background-image: url(images/bg.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-    /* width: 100%; */
-}
 /* navbar */
 .carousel-item img{
   height: 70vh;
@@ -168,19 +160,14 @@ margin: auto;
 }
 /* Footer Part  */
 footer{
-  /* background-color: rgb(141, 186, 204);
+  background-color: rgb(141, 186, 204);
+  text-align: center;
+  margin: 0 auto;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 500;
-  height: 120px;
-   */
 }
-
-.foot img{
-  height: 20%;
-  width: 20%
-}
-.app{
-  display: flex;
+.foot{
+  color: rgb(0, 0, 0);
 }
 /* Toast  */
 #snackbar {
