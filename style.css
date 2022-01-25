@@ -10,6 +10,9 @@
     /* width: 100%; */
 }
 /* navbar */
+.carousel-item img{
+  height: 70vh;
+}
 .navbar-color{
     background-color: black;
 
@@ -165,18 +168,11 @@ margin: auto;
 }
 /* Footer Part  */
 footer{
-  background-color: rgb(141, 186, 204);
+  /* background-color: rgb(141, 186, 204);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 500;
   height: 120px;
-  
-}
-.foot{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  text-align: center;
-  margin: auto;
-
+   */
 }
 
 .foot img{
@@ -227,4 +223,9 @@ footer{
 @keyframes fadeout {
   from {bottom: 30px; opacity: 1;}
   to {bottom: 0; opacity: 0;}
+}
+@media(max-width:576px){
+  .carousel-item img{
+    height:60vh;
+  }
 }
